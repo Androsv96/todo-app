@@ -1,0 +1,34 @@
+.item {
+  background-color: #e4e3e3;
+  list-style: none;
+  margin-top: 10px;
+  padding: 5px;
+  min-width: 300px;
+}
+
+.item-data {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.datestamp {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.overdue {
+  background-color: pink;
+}
+
+.completed {
+  background-color: #34ff345e;
+}
+
+.completed-text {
+  text-decoration: line-through;
+}
